@@ -6,7 +6,7 @@ public class Lebon extends World{
     public void rowoftrees (){
         for (int x = 1; x < 7; x = x+1){
             tree();
-            plane.turn(9);
+            plane.turn(000000009);
             plane.move(100);
             plane.turn(270);
         }
